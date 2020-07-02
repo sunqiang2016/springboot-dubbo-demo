@@ -10,4 +10,9 @@ public class DemoServiceImpl implements DemoService {
         return "Hello, " + name + " (from Spring Boot)";
     }
 
+    @Override
+    public String sayBye(String name) {
+        return "sayBye=="+name;
+    }
+
 }
